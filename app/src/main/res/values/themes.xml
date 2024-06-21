@@ -1,0 +1,94 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.TestTask" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.TestTask" parent="Base.Theme.TestTask" />
+
+    <style name="AppTheme.Title1" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/textSize_title22</item>
+        <item name="android:font">@font/black</item>
+    </style>
+
+    <style name="AppTheme.Title2" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/textSize_title20</item>
+        <item name="android:font">@font/black</item>
+    </style>
+
+    <style name="AppTheme.Title3" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/textSize_title16</item>
+        <item name="android:font">@font/medium</item>
+    </style>
+
+    <style name="AppTheme.Title4" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/textSize_title14</item>
+        <item name="android:font">@font/regular</item>
+    </style>
+
+    <style name="AppTheme.Text1" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/textSize_title16</item>
+        <item name="android:font">@font/regular</item>
+    </style>
+
+    <style name="AppTheme.Text2" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/textSize_title14</item>
+        <item name="android:font">@font/medium</item>
+    </style>
+
+    <style name="AppTheme.Button_text1" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/textSize_title16</item>
+        <item name="android:font">@font/regular</item>
+    </style>
+
+    <style name="AppTheme.Tab_text" parent="Widget.AppCompat.TextView">
+        <item name="android:textSize">@dimen/textSize_title10</item>
+    </style>
+
+
+    <style name="AppTheme.Large_button_Theme" parent="Widget.AppCompat.Button">
+        <item name="android:font">@font/regular</item>
+        <item name="android:textSize">@dimen/textSize_title16</item>
+        <item name="android:width">@dimen/buttonWidth_large</item>
+        <item name="android:height">@dimen/buttonHeight_large</item>
+        <item name="android:radius">@dimen/buttonRadius_large</item>
+        <item name="android:textColor">@color/White</item>
+    </style>
+
+    <style name="AppTheme.Button_Large_Not_Pressed" parent="AppTheme.Large_button_Theme">
+        <item name="backgroundColor">@color/Blue_button</item>
+    </style>
+
+    <style name="AppTheme.Button_Large_Pressed" parent="AppTheme.Large_button_Theme">
+        <item name="backgroundColor">@color/Blue_button_pressed</item>
+        <item name="android:textColor">@color/Grey6</item>
+    </style>
+
+    <style name="AppTheme.Button_buy" parent="Widget.AppCompat.Button">
+        <item name="android:width">@dimen/buttonWidth_small</item>
+        <item name="android:height">@dimen/buttonHeight_small</item>
+        <item name="backgroundColor">@color/Orange</item>
+        <item name="android:radius">@dimen/buttonRadius_small</item>
+
+    </style>
+
+    <style name="AppTheme.Button_map" parent="Widget.AppCompat.Button">
+        <item name="android:width">@dimen/buttonWidth_map</item>
+        <item name="android:height">@dimen/buttonHeight_map</item>
+        <item name="backgroundColor">@color/Grey3</item>
+        <item name="android:radius">@dimen/buttonRadius_small</item>
+    </style>
+
+ <style name="AppTheme.Button_lable" parent="Widget.AppCompat.Button">
+        <item name="android:width">@dimen/buttonWidth_map</item>
+        <item name="android:height">@dimen/buttonHeight_map</item>
+        <item name="backgroundColor">@color/Blue_button</item>
+        <item name="android:radius">@dimen/buttonRadius_small</item>
+
+    </style>
+
+
+
+
+</resources>

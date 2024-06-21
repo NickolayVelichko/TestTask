@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize_title22">22sp</dimen>
+    <dimen name="textSize_title20">20sp</dimen>
+    <dimen name="textSize_title16">16sp</dimen>
+    <dimen name="textSize_title14">14sp</dimen>
+    <dimen name="textSize_title10">10sp</dimen>
+
+    <dimen name="buttonWidth_large">327sp</dimen>
+    <dimen name="buttonHeight_large">41sp</dimen>
+    <dimen name="buttonRadius_large">8sp</dimen>
+
+    <dimen name="buttonWidth_small">101sp</dimen>
+    <dimen name="buttonHeight_small">33sp</dimen>
+    <dimen name="buttonRadius_small">50sp</dimen>
+
+     <dimen name="buttonWidth_map">89sp</dimen>
+    <dimen name="buttonHeight_map">33sp</dimen>
+
+    <dimen name="buttonWidth_lable">55sp</dimen>
+    <dimen name="buttonHeight_lable">21sp</dimen>
+
+
+</resources>
